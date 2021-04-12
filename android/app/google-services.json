@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "619835687194",
+    "project_id": "lojaflutter-d6c92",
+    "storage_bucket": "lojaflutter-d6c92.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619835687194:android:99b4e25339239af6056ca3",
+        "android_client_info": {
+          "package_name": "br.com.henriquemontenegro.loja_virtual"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "619835687194-1ug4u3qs9h185kqhdmi23s412d3ffta9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvgzBEbRHq4-IQP7unbdt97CBeLEP9T5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "619835687194-1ug4u3qs9h185kqhdmi23s412d3ffta9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
