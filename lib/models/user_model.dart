@@ -32,7 +32,7 @@ class UserModel extends Model {
         .then((user) async {
       firebaseUser = user;
       await _saveUserData(userData);
-      await _loadCurrentUser();
+      // await _loadCurrentUser();
 
       onSuccess();
       isLoading = false;
@@ -79,7 +79,9 @@ class UserModel extends Model {
     notifyListeners();
   }
 
-  void recoverPass() {}
+  void recoverPass(String email) {
+    _auth.sendPasswordResetEmail(email: email);
+  }
 
   Future<Null> _saveUserData(Map<String, dynamic> userData) async {
     this.userData = userData;
